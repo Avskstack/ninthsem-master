@@ -187,7 +187,7 @@
               _id: '',
               user_id: this.authService.getUserId(),
               business_id: this.outletDetail._id,
-              amount: this.authService.getPackageDetails().pkgAmount || 998,
+              amount: this.authService.getPackageDetails().pkgAmount,
               recipient_name: this.authService.Firstname() + ' ' + this.authService.Lastname(),
               recipient_email: this.authService.Gmail(),
               user_email: this.authService.Gmail(),
@@ -454,7 +454,7 @@
     /***/
     function _(module, exports, __webpack_require__) {
       module.exports = __webpack_require__(
-      /*! D:\Programing\NinethSem\ninthsem\src\main.ts */
+      /*! C:\Users\shankar panda\Documents\ninthsemDeploy-FireBase\src\main.ts */
       "zUnb");
       /***/
     },
@@ -584,7 +584,7 @@
               }
 
               if (dat == 3) {
-                var _perType = 30; // let totalValue = primary - (primary * perType);
+                var _perType = 50; // let totalValue = primary - (primary * perType);
 
                 var _totalValue = primary / 100 * _perType;
 
@@ -933,7 +933,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](32);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.premiumCost);
+            _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("\u20B9", ctx.premiumCost, "");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](26);
 
@@ -1646,7 +1646,7 @@
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, "Please Enter Mobile Number !!!");
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, "Please Enter contact Number !!!");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         }
@@ -1678,11 +1678,11 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx_r9.form.get("mobile").errors.required);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx_r9.form.get("contact").errors.required);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx_r9.form.get("mobile").errors.min);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx_r9.form.get("contact").errors.min);
         }
       }
 
@@ -2042,27 +2042,27 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](30, _c0, ctx_r3.form.get("userName").touched && ctx_r3.form.get("userName").invalid));
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](30, _c0, ctx_r3.form.get("username").touched && ctx_r3.form.get("username").invalid));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx_r3.form.get("userName").touched && ctx_r3.form.get("userName").invalid);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx_r3.form.get("username").touched && ctx_r3.form.get("username").invalid);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](32, _c0, ctx_r3.form.get("firstName").touched && ctx_r3.form.get("firstName").invalid));
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](32, _c0, ctx_r3.form.get("firstname").touched && ctx_r3.form.get("firstname").invalid));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx_r3.form.get("firstName").touched && ctx_r3.form.get("firstName").invalid);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx_r3.form.get("firstname").touched && ctx_r3.form.get("firstname").invalid);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](34, _c0, ctx_r3.form.get("lastName").touched && ctx_r3.form.get("lastName").invalid));
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](34, _c0, ctx_r3.form.get("lastname").touched && ctx_r3.form.get("lastname").invalid));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx_r3.form.get("lastName").touched && ctx_r3.form.get("lastName").invalid);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx_r3.form.get("lastname").touched && ctx_r3.form.get("lastname").invalid);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
 
@@ -2082,11 +2082,11 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](40, _c0, ctx_r3.form.get("mobile").touched && ctx_r3.form.get("mobile").invalid));
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](40, _c0, ctx_r3.form.get("contact").touched && ctx_r3.form.get("contact").invalid));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx_r3.form.get("mobile").touched && ctx_r3.form.get("mobile").invalid);
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx_r3.form.get("contact").touched && ctx_r3.form.get("contact").invalid);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
 
@@ -2222,13 +2222,13 @@
             this.sm = _enum__WEBPACK_IMPORTED_MODULE_3__["SocialMediaTerms"];
             this.form = new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroup"]({
               // image: new FormControl(null, {validators: [Validators.required], asyncValidators: [mimeType]}),
-              userName: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](null, {
+              username: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](null, {
                 validators: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
               }),
-              firstName: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](null, {
+              firstname: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](null, {
                 validators: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
               }),
-              lastName: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](null, {
+              lastname: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](null, {
                 validators: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
               }),
               password: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](null, {
@@ -2237,7 +2237,7 @@
               email: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](null, {
                 validators: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].email]
               }),
-              mobile: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](null, {
+              contact: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](null, {
                 validators: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].min(999999999)]
               }),
               branch: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](null, {
@@ -2271,7 +2271,7 @@
               return;
             } else {
               this.authService.createUser( // this.form.value.image,
-              this.form.value.userName, this.form.value.firstName, this.form.value.lastName, this.form.value.password, this.form.value.email, this.form.value.mobile, this.form.value.branch, this.form.value.course, this.form.value.graduationYear, this.form.value.college, this.form.value.refferalCode);
+              this.form.value.username, this.form.value.firstname, this.form.value.lastname, this.form.value.password, this.form.value.email, this.form.value.contact, this.form.value.branch, this.form.value.course, this.form.value.graduationYear, this.form.value.college, this.form.value.refferalCode);
               this.signVisible = false;
               this.utilService.setLoaderStatus(true); // this.isLoading = true;
 
@@ -2326,7 +2326,7 @@
         selectors: [["app-signup"]],
         decls: 4,
         vars: 3,
-        consts: [[4, "ngIf"], ["class", "notification", 4, "ngIf"], ["data-aos", "zoom-in-up", 1, "dialogContent"], ["class", "container ", "mat-dialog-content", "", "style", "background-image: url(/assets/images/signup-image.png);", 4, "ngIf"], ["mat-dialog-content", "", 1, "container", 2, "background-image", "url(/assets/images/signup-image.png)"], [1, "container"], [1, "d-flex", "flex-row-reverse"], ["mat-dialog-close", "", "align", "end", 2, "color", "white", "background", "#384545", "margin-top", "20px"], [1, "row"], [1, "col-6", 2, "text-align", "center"], [1, "ninthsem_logo"], ["src", "assets/images/profile.png", 1, "rounded", "mx-auto", "d-block", 2, "width", "25%"], [1, "heading3", 2, "text-align", "center"], [3, "formGroup", "submit"], [1, "form-group"], ["type", "text", "id", "exampleInputEmail1", "formControlName", "userName", "placeholder", "Username", 1, "form-control", 3, "ngClass"], ["class", "invalid-feedback", 4, "ngIf"], ["type", "text", "id", "exampleInputEmail1", "formControlName", "firstName", "placeholder", "First name", 1, "form-control", 3, "ngClass"], ["type", "text", "id", "exampleInputEmail1", "formControlName", "lastName", "placeholder", "Last name", 1, "form-control", 3, "ngClass"], ["type", "email", "id", "exampleInputEmail1", "formControlName", "email", "placeholder", "Email", 1, "form-control", 3, "ngClass"], ["type", "password", "id", "exampleInputPassword1", "formControlName", "password", "placeholder", "Password", 1, "form-control", 3, "ngClass"], ["type", "tel", "id", "exampleInputEmail1", "formControlName", "mobile", "placeholder", "Phone number", "maxlength", "10", 1, "form-control", 3, "ngClass"], ["formControlName", "course", 1, "form-control", 3, "ngClass"], ["disabled", "", 3, "ngValue"], ["required", "", 3, "value", 4, "ngFor", "ngForOf"], ["formControlName", "branch", "placeholder", "Select Branch", 1, "form-control", 3, "ngClass"], ["type", "number", "id", "exampleInputEmail1", "formControlName", "graduationYear", "placeholder", "Enter graduation year", 1, "form-control", 3, "ngClass"], ["type", "text", "id", "exampleInputEmail1", "formControlName", "college", "placeholder", "Name of university/College", 1, "form-control", 3, "ngClass"], ["type", "text", "id", "exampleInputEmail1", "formControlName", "refferalCode", "placeholder", "Referral code", 1, "form-control"], ["id", "btn1", 2, "padding", "1.375rem 3.75rem !important", 3, "disabled"], ["mat-dialog-close", "", "cdkFocusInitial", "", 2, "color", "white", "background", "#384545 !important", "border-radius", "5px", 3, "click"], [1, "invalid-feedback"], ["required", "", 3, "value"], [1, "notification"], ["src", "/assets/images/ninthsemlogo.png", "alt", "img", 1, "align-center"], ["mat-dialog-title", "", 2, "margin", "25px 15px 16px 25px"], ["mat-dialog-title", ""], ["mat-dialog-actions", ""], ["mat-button", "", "mat-dialog-close", ""]],
+        consts: [[4, "ngIf"], ["class", "notification", 4, "ngIf"], ["data-aos", "zoom-in-up", 1, "dialogContent"], ["class", "container ", "mat-dialog-content", "", "style", "background-image: url(/assets/images/signup-image.png);", 4, "ngIf"], ["mat-dialog-content", "", 1, "container", 2, "background-image", "url(/assets/images/signup-image.png)"], [1, "container"], [1, "d-flex", "flex-row-reverse"], ["mat-dialog-close", "", "align", "end", 2, "color", "white", "background", "#384545", "margin-top", "20px"], [1, "row"], [1, "col-6", 2, "text-align", "center"], [1, "ninthsem_logo"], ["src", "assets/images/profile.png", 1, "rounded", "mx-auto", "d-block", 2, "width", "25%"], [1, "heading3", 2, "text-align", "center"], [3, "formGroup", "submit"], [1, "form-group"], ["type", "text", "id", "exampleInputEmail1", "formControlName", "username", "placeholder", "Username", 1, "form-control", 3, "ngClass"], ["class", "invalid-feedback", 4, "ngIf"], ["type", "text", "id", "exampleInputEmail1", "formControlName", "firstname", "placeholder", "First name", 1, "form-control", 3, "ngClass"], ["type", "text", "id", "exampleInputEmail1", "formControlName", "lastname", "placeholder", "Last name", 1, "form-control", 3, "ngClass"], ["type", "email", "id", "exampleInputEmail1", "formControlName", "email", "placeholder", "Email", 1, "form-control", 3, "ngClass"], ["type", "password", "id", "exampleInputPassword1", "formControlName", "password", "placeholder", "Password", 1, "form-control", 3, "ngClass"], ["type", "tel", "id", "exampleInputEmail1", "formControlName", "contact", "placeholder", "Phone number", "maxlength", "10", 1, "form-control", 3, "ngClass"], ["formControlName", "course", 1, "form-control", 3, "ngClass"], ["disabled", "", 3, "ngValue"], ["required", "", 3, "value", 4, "ngFor", "ngForOf"], ["formControlName", "branch", "placeholder", "Select Branch", 1, "form-control", 3, "ngClass"], ["type", "number", "id", "exampleInputEmail1", "formControlName", "graduationYear", "placeholder", "Enter graduation year", 1, "form-control", 3, "ngClass"], ["type", "text", "id", "exampleInputEmail1", "formControlName", "college", "placeholder", "Name of university/College", 1, "form-control", 3, "ngClass"], ["type", "text", "id", "exampleInputEmail1", "formControlName", "refferalCode", "placeholder", "Referral code", 1, "form-control"], ["id", "btn1", 2, "padding", "1.375rem 3.75rem !important", 3, "disabled"], ["mat-dialog-close", "", "cdkFocusInitial", "", 2, "color", "white", "background", "#384545 !important", "border-radius", "5px", 3, "click"], [1, "invalid-feedback"], ["required", "", 3, "value"], [1, "notification"], ["src", "/assets/images/ninthsemlogo.png", "alt", "img", 1, "align-center"], ["mat-dialog-title", "", 2, "margin", "25px 15px 16px 25px"], ["mat-dialog-title", ""], ["mat-dialog-actions", ""], ["mat-button", "", "mat-dialog-close", ""]],
         template: function SignupComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
@@ -3394,7 +3394,7 @@
 
       var environment = {
         production: true,
-        Apiurl: 'https://ninthsemelb-439668971.ap-south-1.elb.amazonaws.com/' // FIREBASE BACKEND ENDPOINT
+        Apiurl: 'https://ninthsembackenddeploy.herokuapp.com' // FIREBASE BACKEND ENDPOINT
         // Apiurl : 'http://localhost:4000' // LOCAL BACKEND ENDPOINT
         // Apiurl : 'http://ec2-65-0-91-106.ap-south-1.compute.amazonaws.com:4800' // OLD BACKEND AWS ENDPOINT
         // Apiurl : 'ninthsem.net' // NEW BACKEND AWS ENDPOINT
@@ -10682,7 +10682,9 @@
             sessionStorage.removeItem('payment');
             sessionStorage.removeItem('signature');
             localStorage.removeItem('basicCost');
-            localStorage.removeItem('premiumCost'); // sessionStorage.removeItem('isLoadedOnce');
+            localStorage.removeItem('premiumCost');
+            localStorage.removeItem('premiumCost');
+            localStorage.removeItem('basicCost'); // sessionStorage.removeItem('isLoadedOnce');
           } // fetching pament details
 
         }, {

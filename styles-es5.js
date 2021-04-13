@@ -11,19 +11,19 @@
     /***/
     function _(module, exports, __webpack_require__) {
       __webpack_require__(
-      /*! D:\Programing\NinethSem\ninthsem\node_modules\bootstrap\dist\css\bootstrap.min.css */
+      /*! C:\Users\shankar panda\Documents\ninthsemDeploy-FireBase\node_modules\bootstrap\dist\css\bootstrap.min.css */
       "q4sD");
 
       __webpack_require__(
-      /*! D:\Programing\NinethSem\ninthsem\node_modules\@angular\material\prebuilt-themes\indigo-pink.css */
+      /*! C:\Users\shankar panda\Documents\ninthsemDeploy-FireBase\node_modules\@angular\material\prebuilt-themes\indigo-pink.css */
       "8jWO");
 
       __webpack_require__(
-      /*! D:\Programing\NinethSem\ninthsem\node_modules\aos\dist\aos.css */
+      /*! C:\Users\shankar panda\Documents\ninthsemDeploy-FireBase\node_modules\aos\dist\aos.css */
       "6Cl6");
 
       module.exports = __webpack_require__(
-      /*! D:\Programing\NinethSem\ninthsem\src\styles.css */
+      /*! C:\Users\shankar panda\Documents\ninthsemDeploy-FireBase\src\styles.css */
       "OmL/");
       /***/
     },
